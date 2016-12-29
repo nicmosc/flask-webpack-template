@@ -16,7 +16,7 @@ def create_app(settings_override=None):
     app = Flask(__name__)
 
     params = {
-        'DEBUG': True,
+        'DEBUG': False,
         'WEBPACK_MANIFEST_PATH': './build/manifest.json'
     }
 

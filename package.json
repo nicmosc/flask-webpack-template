@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "My website",
   "scripts": {
-    "start": "node_modules/.bin/webpack-dev-server --progress --colors --port 2992 --content-base build/public",
+    "start": "node_modules/.bin/webpack-dev-server --progress --colors --port 3000 --content-base build/public",
     "build": "node_modules/.bin/webpack --progress --profile --colors",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

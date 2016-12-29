@@ -16,7 +16,7 @@ module.exports = {
   },
   output: {
     path: './build/public',
-    publicPath: 'http://localhost:2992/assets/',
+    publicPath: 'http://localhost:3000/assets/',
     filename: '[name].[chunkhash].js',
     chunkFilename: '[id].[chunkhash].js'
   },
