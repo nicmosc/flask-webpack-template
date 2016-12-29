@@ -16,7 +16,7 @@ module.exports = {
   },
   output: {
     path: './build/public',
-    publicPath: 'https://flask-webpack-test.herokuapp.com/assets/',
+    publicPath: 'http://localhost:2992/assets/',
     filename: '[name].[chunkhash].js',
     chunkFilename: '[id].[chunkhash].js'
   },
