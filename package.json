@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "description": "My website",
   "scripts": {
-    "start": "node_modules/.bin/webpack-dev-server --progress --colors --port 3000 --content-base build/public",
-    "build": "node_modules/.bin/webpack --progress --profile --colors",
+    "start": "webpack-dev-server --progress --colors --port 3000 --content-base build/public",
+    "webpack": "webpack --progress",
+    "build": "webpack --progress --profile --colors",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
