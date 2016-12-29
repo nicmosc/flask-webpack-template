@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "My website",
   "scripts": {
-    "start": "webpack-dev-server --progress --colors --port 3000 --content-base build/public",
+    "clean": "rm -rf build/public/",
+    "start": "npm run clean && npm run webpack-server",
+    "webpack-server": "webpack-dev-server --progress --colors --port 3000 --content-base build/public",
     "webpack": "webpack --progress",
     "build": "webpack --progress --profile --colors",
     "test": "echo \"Error: no test specified\" && exit 1"
